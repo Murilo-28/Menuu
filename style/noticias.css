@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    font-family: "Arsenal", sans-serif;
+}
+
+nav {
+    height: 80px;
+    background-color: rgb(62, 5, 115);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 25%;
+}
+
+nav ul li {
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#atual {
+    color: rgb(147, 80, 205);
+}
+
+nav li:hover {
+    border-bottom: 2px solid rgb(147, 80, 205);
+    padding-bottom: 15px;
+}
