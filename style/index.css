@@ -38,3 +38,30 @@ nav a {
 nav li:hover {
     border-bottom: 2px solid rgb(147, 80, 205);
 }
+
+footer {
+    text-align: center;
+    
+}
+
+footer div {
+    display: flex;   
+    justify-content: center;
+    gap: 35px;
+}
+
+img {
+    width: 64px;
+    justify-content: center;
+}
+
+footer p{
+    padding-bottom: 20px;
+    padding-top: 7px;
+}
+
+.linha-footer {
+    height: 10px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}

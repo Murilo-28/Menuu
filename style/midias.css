@@ -39,23 +39,64 @@ nav li:hover {
     border-bottom: 2px solid rgb(147, 80, 205);
 }
 
-footer {
-    text-align: center;
-    
+.videos h2,
+.videos div {
+    justify-content: center;
+    align-items: center;
 }
 
-footer div {
-    display: flex;   
+h2 {
+    margin-top: 15px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.fila1 {
+    display: flex;
+    gap: 25px;
+    margin: 15px;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+
+.fila2 {
+    display: flex;
+    gap: 25px;
+    margin: 0 15px 15px;
+    justify-content: center;
+}
+
+.card-video {
+    text-align: center;
+}
+
+iframe {
+    border-radius: 15px;
+    display: block;
+}
+
+p {
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes-sociais {
+    display: flex;
     justify-content: center;
     gap: 35px;
+    margin: 10px 0;
 }
 
 img {
     width: 64px;
-    justify-content: center;
 }
 
-footer p{
+footer p {
     padding-bottom: 20px;
     padding-top: 7px;
 }
