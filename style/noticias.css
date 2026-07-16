@@ -41,11 +41,10 @@ nav li:hover {
 
 footer {
     text-align: center;
-    
 }
 
 footer div {
-    display: flex;   
+    display: flex;
     justify-content: center;
     gap: 35px;
 }
@@ -55,7 +54,7 @@ img {
     justify-content: center;
 }
 
-footer p{
+footer p {
     padding-bottom: 20px;
     padding-top: 7px;
 }
@@ -66,28 +65,45 @@ footer p{
     margin-bottom: 10px;
 }
 
-.fila1 {
+.fila1, .fila2, .fila3 {
     width: 80%;
     margin-left: 10%;
     margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.fila1 img {
+.fila1 img, .fila2 img, .fila3 img {
     width: 100%;
     border-radius: 32px;
 }
 
-.fila1 figure figcaption {
+.noticia1, .noticia2 {
+    width: 45%;
+}
+
+.noticia0 {
+    width: 100%;
+}
+
+.noticia3, .noticia4, .noticia5 {
+    width: 30%;
+}
+
+.fila1 figure figcaption,
+.fila2 figure figcaption,
+.fila3 figure figcaption {
     text-align: center;
     margin-bottom: 2%;
 }
 
-.fila1 h2 {
+.fila1 h2, .fila2 h2, .fila3 h2 {
     color: black;
+    margin-top: 2%;
     margin-bottom: 1%;
 }
 
-.fila1 p {
+.fila1 p, .fila2 p, .fila3 p {
     font-size: 18px;
 }
 
@@ -110,3 +126,4 @@ footer p{
     font-size: 18px;
     text-align: center;
 }
+
