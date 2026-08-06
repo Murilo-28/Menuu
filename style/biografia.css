@@ -65,3 +65,87 @@ footer p{
     background-color: blueviolet;
     margin-bottom: 10px;
 }
+
+.apresentacao {
+    background: #fff;
+    display: flex;
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 3%;
+}
+
+.foto {
+    width: 30%;
+}
+
+.foto img {
+    width: 100%;
+}
+
+.informacoes {
+    padding-left: 3%;
+}
+
+.perfil h1 {
+    color: blueviolet;
+    padding-bottom: 1,5%;
+}
+
+.perfil p {
+    font-size: 16px;
+    padding-bottom: 1,5%;
+}
+
+.perfil h3 {
+    color: blueviolet;
+    padding-bottom: 1,5%;
+}
+
+.perfil h2 {
+    color: blueviolet;
+    padding-bottom: 1,5%;
+}
+
+.botoes {
+    display: flex;
+    padding-bottom: 1,5%;
+    gap: 30px;
+}
+
+.botao {
+    background-color: blueviolet;
+    padding: 15px 7.5px;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background-color: #d21f9c;
+    scale: 1.1;
+}
+
+.botao a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dados_gerais h2 {
+    color: blueviolet;
+    padding-bottom: 1,5%;
+}
+
+.dados_gerais ul {
+    font-size: 18px;
+}
+
+#trajetoria {
+    background-color: rgb(62, 5, 115);;
+}
+
+.Feitos_comunidade {
+    background-color: white;
+}
+
+#contato {
+    background-color: rgb(62, 5, 115);;
+}
