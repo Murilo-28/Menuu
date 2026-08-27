@@ -65,3 +65,23 @@ footer p{
     background-color: blueviolet;
     margin-bottom: 10px;
 }
+
+.home {
+    position: relative;
+}
+
+.home img {
+    width: 100%;
+}
+
+.titulohome {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.titulohome h2 {
+    font-size: 64px;
+    color: rgb(38, 5, 68)   ;
+    text-shadow: #ffffff 5px 5px 15px;
+}
